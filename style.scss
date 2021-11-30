@@ -11,6 +11,12 @@ body {
     margin: auto;
 }
 
+@mixin border-radius ($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-o-border-radius: $radius;
+	border-radius: $radius;
+}
 
 .filter {
 	display: flex;
@@ -23,6 +29,7 @@ body {
 	align-items: center;
 	flex-wrap: wrap;
 	@extend .couleur;
+	@include border-radius(20px);
     }
 
         .filter__text {

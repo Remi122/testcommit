@@ -28,6 +28,7 @@ body {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  border-radius: 20px;
 }
 
 .filter .filter__text {
