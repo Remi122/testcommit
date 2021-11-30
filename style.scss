@@ -11,7 +11,10 @@ body {
     margin: auto;
 }
 
-
+@mixin border ($radius) {
+	border-radius: $radius;
+   
+}
 
 
 .filter {
