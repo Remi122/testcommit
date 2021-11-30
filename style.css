@@ -1,3 +1,7 @@
+.couleur, .filter .filter__container {
+  border-bottom: 4px solid red;
+}
+
 body {
   background-color: #f7f7f7;
   margin-top: 0px;
