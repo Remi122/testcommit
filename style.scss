@@ -11,6 +11,10 @@ body {
     margin: auto;
 }
 
+@mixin border ($radius) {
+	border-radius: $radius;
+   
+}
 
 
 .filter {
@@ -24,7 +28,7 @@ body {
 	align-items: center;
 	flex-wrap: wrap;
 	@extend .couleur;
-	@include border-radius(20px);
+	@include border (20px);
     }
 
         .filter__text {
