@@ -12,10 +12,43 @@
     <title>Booki</title>
 </head>
 <body>
-    <div class="container">
-        <div class="box"></div>
-        
+    <div class="searchbar">
+        <h1 class="searchbar__title">Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p class="searchbar__text">En plein centre ville ou en pleine nature</p>
+        <form class="searchbar__form">
+            <span class="form__icon"><i class="fas fa-map-marker-alt"></i></span>  
+            <input class="form__search" type="search" placeholder="Marseille, France">
+            <button class="form__button" type="submit">
+                <span class="form__text">Rechercher</span>
+                <i class="form__img fas fa-search"></i>
+            </button>
+        </form>
     </div>
+    
+     <!--Filtres-->
 
+     <div class="filter">
+        <div class="filter__container">
+            <h2 class="filter__text">Filtres</h2>   
+
+            <div class="filter__box">
+                <span class="filter__img"><i class="fas fa-money-bill-wave"></i></span>   
+                <span class="filter__title">Économique</span>  
+            </div>
+        
+            <div class="filter__box">
+                <span class="filter__img"><i class="fas fa-child"></i></span>
+                <span class="filter__title">Familial</span>
+            </div>  
+            <div class="filter__box">
+                <span class="filter__img"><i class="fas fa-heart"></i></span>
+                <span class="filter__title">Romantique</span>
+            </div>
+            <div class="filter__box">
+                <span class="filter__img"><i class="fas fa-dog"></i></span>
+                <span class="filter__title">Animaux autorisés</span>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
